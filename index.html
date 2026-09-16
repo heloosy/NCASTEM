@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NCASTEM-2026: Multidisciplinary National Conference on Advances in Science, Technology, Engineering, and Management at T. John Institute of Technology.">
+    <title>NCASTEM-2026 | Premium Academic Conference</title>
+    
+    <!-- Premium Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Premium Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-text">NCASTEM</span>
+                <span class="logo-year">2026</span>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#themes">Themes</a></li>
+                <li><a href="#guidelines">Guidelines</a></li>
+                <li><a href="#dates">Timeline</a></li>
+                <li><a href="#committee">Committee</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <a href="#registration" class="btn btn-outline-light nav-btn">Register</a>
+            </div>
+            
+            <button class="hamburger" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-slideshow">
+            <div class="hero-slide" style="background-image: url('images/campus1.webp');"></div>
+            <div class="hero-slide" style="background-image: url('images/campus2.webp');"></div>
+            <div class="hero-slide" style="background-image: url('images/campus3.webp');"></div>
+            <div class="hero-slide" style="background-image: url('images/campus4.webp');"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        
+        <div class="container hero-content-wrapper">
+            <div class="hero-content">
+                <p class="hero-organizer fade-up" style="font-size: 1rem; font-weight: 700; letter-spacing: 1.5px; color: #334155; margin-bottom: 0.8rem; text-transform: uppercase; line-height: 1.5;">
+                    Department of AIML and Department of ISE, T. John Institute of Technology,<br> in association with IIC
+                </p>
+                <div class="hero-eyebrow fade-up delay-1" style="margin-bottom: 1.5rem;">NATIONAL CONFERENCE &middot; 2026</div>
+                
+                <h1 class="hero-title fade-up delay-2">
+                    NCASTEM
+                </h1>
+                
+                <h2 class="hero-subtitle fade-up delay-2">
+                    Multidisciplinary National Conference on Advances in Science, Technology, Engineering, and Management
+                </h2>
+                
+                <div class="hero-meta fade-up delay-3">
+                    <div class="meta-item">
+                        <i class="far fa-calendar"></i> 30 OCTOBER 2026
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-map-pin"></i> T. JOHN INSTITUTE OF TECHNOLOGY, BENGALURU
+                    </div>
+                </div>
+                
+                                <div class="hero-cta fade-up delay-4">
+                    <a href="#guidelines" class="btn btn-primary btn-large">SUBMIT PAPER <i class="fas fa-arrow-right"></i></a>
+                    <button class="btn btn-outline-light btn-large register-trigger" style="border-radius: 4px;">REGISTER NOW <i class="fas fa-arrow-right"></i></button>
+                </div>
+                
+                <div class="hero-countdown fade-up delay-4">
+                    <div class="countdown-item">
+                        <span class="count" id="cd-days">00</span>
+                        <span class="label">Days</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="count" id="cd-hours">00</span>
+                        <span class="label">Hours</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="count" id="cd-minutes">00</span>
+                        <span class="label">Minutes</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="count" id="cd-seconds">00</span>
+                        <span class="label">Seconds</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Conference At a Glance -->
+    <div class="glance-strip fade-up">
+        <div class="container glance-container">
+            <div class="glance-item">
+                <i class="fas fa-calendar-alt" style="font-size: 1.8rem; color: var(--accent-alt); margin-bottom: 0.8rem;"></i>
+                <span class="glance-value">30 OCT 2026</span>
+                <span class="glance-label">CONFERENCE DATE</span>
+            </div>
+            <div class="glance-item">
+                <i class="fas fa-map-marker-alt" style="font-size: 1.8rem; color: var(--accent-alt); margin-bottom: 0.8rem;"></i>
+                <span class="glance-value">TJIT, BENGALURU</span>
+                <span class="glance-label">VENUE</span>
+            </div>
+            <div class="glance-item">
+                <i class="fas fa-microscope" style="font-size: 1.8rem; color: var(--accent-alt); margin-bottom: 0.8rem;"></i>
+                <span class="glance-value">06</span>
+                <span class="glance-label">RESEARCH DOMAINS</span>
+            </div>
+            <div class="glance-item">
+                <i class="fas fa-chalkboard-teacher" style="font-size: 1.8rem; color: var(--accent-alt); margin-bottom: 0.8rem;"></i>
+                <span class="glance-value">PAPER + POSTER</span>
+                <span class="glance-label">PRESENTATIONS</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. About the Conference -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-left fade-up">
+                    <h2 class="editorial-heading">
+                        ADVANCING IDEAS.<br>
+                        <span class="text-accent">CONNECTING DISCIPLINES.</span>
+                    </h2>
+                    
+                    <div class="stat-box mt-4">
+                        <div class="stat-icon"><i class="fas fa-university"></i></div>
+                        <div class="stat-content">
+                            <h4>Organized By</h4>
+                            <p>Department of AIML & ISE, T. John Institute of Technology</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-right fade-up delay-2">
+                    <p class="lead-text">
+                        The National Conference on Advances in Science, Technology, Engineering, and Management (NCASTEM) is a prestigious gathering that provides a platform for researchers, academicians, professionals, and students.
+                    </p>
+                    <p>
+                        Our mission is to share insights, discoveries, and innovations across diverse disciplines while discussing the latest technological developments. The conference serves as a catalyst for fostering collaboration, promoting interdisciplinary research, and addressing contemporary challenges in engineering, management, science, and technology.
+                    </p>
+                    <p>
+                        It promotes a dynamic setting for knowledge sharing, creativity, and the growth of excellence in practice and research. Advancing these frontiers is crucial for the advancement of society.
+                    </p>
+                    
+                    <a href="https://drive.google.com/file/d/1sbUlOYmeoY2o0iUojVPOqUJxb0hOFj9t/view?usp=sharing" target="_blank" class="link-arrow mt-3">Download Conference Brochure <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- 3.5 About TJIT & Departments -->
+    <section class="section about-tjit-section bg-alt">
+        <div class="container">
+            <!-- About TJIT -->
+            <div class="section-header fade-up" style="margin-bottom: 2rem;">
+                <h2 class="section-title">About <span class="text-accent-alt">TJIT</span></h2>
+            </div>
+            
+            <div class="about-tjit-top-grid fade-up" style="margin-bottom: 3rem;">
+                <div class="tjit-text">
+                    <p class="lead-text text-muted" style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 0; text-align: justify;">
+                        T. John Institute of Technology (TJIT) is a premier private Engineering College located in Bangalore, Karnataka. Established in 2006 by Dr. Thomas P. John, the institute is affiliated to VTU and approved by AICTE. We impart science-based engineering education to develop professional skills, preparing students for immediate employment and lifelong learning.
+                    </p>
+
+                </div>
+                <div class="tjit-img-box">
+                    <img src="images/tjit-building.webp" alt="TJIT Campus" class="tjit-building-img">
+                </div>
+            </div>
+            
+            <div class="tjit-content" style="margin-bottom: 5rem;">
+                <div class="vm-grid">
+                    <div class="vm-card fade-up delay-1">
+                        <div class="vm-header">
+                            <i class="far fa-eye text-accent-alt"></i>
+                            <h4>Vision</h4>
+                        </div>
+                        <p class="text-muted">To achieve excellence in delivering quality education of global standards, coupled with innovative practices using advanced technology and expertise. We aim to transform the student community into potential global leaders ready to meet dynamic global challenges.</p>
+                    </div>
+                    
+                    <div class="vm-card fade-up delay-2">
+                        <div class="vm-header">
+                            <i class="fas fa-rocket text-accent-alt"></i>
+                            <h4>Mission</h4>
+                        </div>
+                        <p class="text-muted">To bring about overall personality development by fostering a caring and creative environment. We strive to instill remarkable resilience and adaptation to a competitive society through lifelong learning, employment, and entrepreneurship.</p>
+                    </div>
+                </div>
+                
+                
+                <div class="text-center mt-5 fade-up delay-3" style="margin-top: 3rem; text-align: center;">
+                    <a href="https://www.google.com/maps/dir//VH2W%2B33X+T+John+Institute+Of+Technology,+%2386%2F1,+Gottigere,+Bannerghatta+Road,+Bohra+Layout,+Gottigere,+Doddakammanahalli,+Basavanapura,+Bengaluru,+Karnataka+560083/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bae6ac114cdcaf3:0xf645f28fa98fbd74?sa=X&ved=1t:57443&ictx=111" target="_blank" class="btn btn-primary" style="border-radius: 30px;">
+                        <i class="fas fa-map-marker-alt" style="color: white;"></i> VIEW COLLEGE ON MAP
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Departments -->
+            <div class="dept-grid mt-5">
+                <div class="dept-card fade-up">
+                    <i class="fas fa-brain dept-icon text-accent-alt"></i>
+                    <h3>Department of AIML</h3>
+                    <p class="text-muted">Department of Artificial Intelligence & Machine Learning was established at T. John Institute of Technology in the year 2022. The courses are offered under the auspices of VTU and are recognized by Govt. of Karnataka and AICTE, New Delhi.</p>
+                    <p class="text-muted">The department seeks to excel as a technology hub processing research and educating students in current technological developments. It is equipped with the state of the art infrastructure and supported by a team of dedicated and qualified staff members.</p>
+                    <div class="dept-tabs mt-4">
+                        <div class="dept-tab-controls">
+                            <div class="dept-tab-label active" onclick="switchDeptTab(this, 'vision')"><i class="far fa-eye"></i> Vision</div>
+                            <div class="dept-tab-label" onclick="switchDeptTab(this, 'mission')"><i class="fas fa-bullseye"></i> Mission</div>
+                        </div>
+                        <div class="dept-tab-content vision-content active">
+                            <p class="text-muted mb-0">To enrich students with Artificial Intelligence and Machine Learning skills, fostering a culture of research, innovation, and development, thereby empowering them to efficiently address dynamic and evolving societal challenges.</p>
+                        </div>
+                        <div class="dept-tab-content mission-content">
+                            <p class="text-muted mb-2"><strong>M1.</strong> To provide comprehensive education in AI and ML, equipping students with skills to excel in their careers.</p>
+                            <p class="text-muted mb-2"><strong>M2.</strong> To foster a culture of research and innovation by encouraging cutting-edge projects and developing novel AI/ML solutions.</p>
+                            <p class="text-muted mb-2"><strong>M3.</strong> To establish strong industry partnerships to prepare students for the tech world.</p>
+                            <p class="text-muted mb-0"><strong>M4.</strong> To empower students to drive societal progress and address dynamic challenges.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="dept-card fade-up delay-1">
+                    <i class="fas fa-sitemap dept-icon text-accent-alt"></i>
+                    <h3>Department of ISE</h3>
+                    <p class="text-muted">The Information Science Department at TJIT was established in 2007. It offers B.E in Information Science under the auspices of VTU and recognized by AICTE. Every year the department has an intake of 60 students each BE Information Science Engineering (ISE).</p>
+                    <div class="dept-tabs mt-4">
+                        <div class="dept-tab-controls">
+                            <div class="dept-tab-label active" onclick="switchDeptTab(this, 'vision')"><i class="far fa-eye"></i> Vision</div>
+                            <div class="dept-tab-label" onclick="switchDeptTab(this, 'mission')"><i class="fas fa-bullseye"></i> Mission</div>
+                        </div>
+                        <div class="dept-tab-content vision-content active">
+                            <p class="text-muted mb-0">To achieve excellence in delivering quality education of global standards, coupled with innovative practices using advanced technology and expertise, transforming the student community in to potential global leaders with accountability to meet societal, national and dynamic global challenges.</p>
+                        </div>
+                        <div class="dept-tab-content mission-content">
+                            <p class="text-muted mb-0">To practice outstanding computing professionals in area of Information Science and Engineering and also help the student in appreciating the complete spectrum of computer concepts and effectively training them in the five pillars of Information Technology namely Networking, Programming, Human Computer, Interaction, Databases and Web Systems.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Conference Themes -->
+
+    <section id="themes" class="section themes-section" style="padding-bottom: 3rem;">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h2 class="section-title">Research Domains</h2>
+                <p class="section-desc">Scientists, Academicians, Researchers, Practicing Engineers, and Students are invited to submit original research papers.</p>
+            </div>
+            
+            <div class="themes-grid mt-5">
+                <!-- Theme 1 -->
+                <div class="theme-card fade-up">
+                    <div class="theme-num">01</div>
+                    <div class="theme-content">
+                        <h3>Science & Technology</h3>
+                        <p>Exploring the latest frontiers in applied sciences and technological innovation.</p>
+                    </div>
+                    <a href="#guidelines" class="theme-link">EXPLORE <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Theme 2 -->
+                <div class="theme-card fade-up delay-1">
+                    <div class="theme-num">02</div>
+                    <div class="theme-content">
+                        <h3>Engineering Domain</h3>
+                        <p>Advancements across mechanical, civil, computer science, and electrical engineering.</p>
+                    </div>
+                    <a href="#guidelines" class="theme-link">EXPLORE <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Theme 3 -->
+                <div class="theme-card fade-up delay-2">
+                    <div class="theme-num">03</div>
+                    <div class="theme-content">
+                        <h3>Management Domain</h3>
+                        <p>Contemporary practices, strategic growth, and technological integration in management.</p>
+                    </div>
+                    <a href="#guidelines" class="theme-link">EXPLORE <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Theme 4 -->
+                <div class="theme-card fade-up">
+                    <div class="theme-num">04</div>
+                    <div class="theme-content">
+                        <h3>Physics & Chemistry</h3>
+                        <p>Fundamental research, material sciences, and innovative chemical processes.</p>
+                    </div>
+                    <a href="#guidelines" class="theme-link">EXPLORE <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Theme 5 -->
+                <div class="theme-card fade-up delay-1">
+                    <div class="theme-num">05</div>
+                    <div class="theme-content">
+                        <h3>Mathematics</h3>
+                        <p>Applied mathematics, computational models, and advanced analytical research.</p>
+                    </div>
+                    <a href="#guidelines" class="theme-link">EXPLORE <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Theme 6 -->
+                <div class="theme-card fade-up delay-2">
+                    <div class="theme-num">06</div>
+                    <div class="theme-content">
+                        <h3>English Literature</h3>
+                        <p>Modern literary analysis, communication, and linguistic studies.</p>
+                    </div>
+                    <a href="#guidelines" class="theme-link">EXPLORE <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Important Dates -->
+    <section id="dates" class="section dates-section" style="padding-top: 2rem;">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h2 class="section-title">Timeline</h2>
+            </div>
+            
+            <div class="timeline-container mt-5">
+                <div class="timeline-track"></div>
+                
+                <div class="time-node fade-up">
+                    <div class="node-date">20 SEP 2026</div>
+                    <div class="node-dot"></div>
+                    <div class="node-content">
+                        <h4>Abstract & Full Paper Submission</h4>
+                        <p>Deadline for initial manuscript submission.</p>
+                    </div>
+                </div>
+                
+                <div class="time-node fade-up">
+                    <div class="node-date">25 SEP 2026</div>
+                    <div class="node-dot"></div>
+                    <div class="node-content">
+                        <h4>Notification of Acceptance</h4>
+                        <p>Authors notified of peer-review results.</p>
+                    </div>
+                </div>
+                
+                <div class="time-node fade-up">
+                    <div class="node-date">30 SEP 2026</div>
+                    <div class="node-dot"></div>
+                    <div class="node-content">
+                        <h4>Camera Ready Paper</h4>
+                        <p>Final revised manuscript submission.</p>
+                    </div>
+                </div>
+                
+                <div class="time-node fade-up">
+                    <div class="node-date">07 OCT 2026</div>
+                    <div class="node-dot"></div>
+                    <div class="node-content">
+                        <h4>Presenter Registration</h4>
+                        <p>Last date for author registration.</p>
+                    </div>
+                </div>
+                
+                <div class="time-node node-highlight fade-up">
+                    <div class="node-date text-accent">30 OCT 2026</div>
+                    <div class="node-dot dot-accent"></div>
+                    <div class="node-content">
+                        <h4 class="text-accent">CONFERENCE DAY</h4>
+                        <p>NCASTEM-2026 at TJIT, Bengaluru.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6 & 7. Presentation Formats & Benefits -->
+    <section id="guidelines" class="section presentation-section bg-alt">
+        <div class="container">
+            
+            <div class="section-header fade-up">
+                <h2 class="section-title">Presentation Formats</h2>
+            </div>
+            
+            <div class="presentation-grid mt-4">
+                <div class="presentation-card fade-up">
+                    <div class="card-icon"><i class="fas fa-file-alt"></i></div>
+                    <h3>Paper Presentation</h3>
+                    <ul class="clean-list">
+                        <li>Original work, not submitted or published elsewhere.</li>
+                        <li>Plagiarism must be strictly less than 15%.</li>
+                        <li>Full paper submission required in <a href="https://drive.google.com/file/d/1pGefPEcUm4n6PI62njn-oJFyHeSlZsuM/view?usp=drive_link" target="_blank" style="color: var(--accent); text-decoration: underline;">IEEE format</a>.</li>
+                        <li>Peer review selection process.</li>
+                        <li>Will be published in UGC Care listed journals (Additional Charges) and Conference Proceedings with ISBN.</li>
+                    </ul>
+                </div>
+                
+                <div class="presentation-card fade-up delay-2">
+                    <div class="card-icon"><i class="fas fa-chalkboard"></i></div>
+                    <h3>Poster Presentation</h3>
+                    <ul class="clean-list">
+                        <li>Visual presentation of research findings.</li>
+                        <li>Recommended poster size: 3 feet by 4 feet (36x48 inches).</li>
+                        <li>Acceptance informed through e-mail after peer review.</li>
+                        <li>At least one author must register by October 7, 2026.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="fade-up mt-5 pt-5 border-top" style="text-align: center;">
+                <h3 style="font-family: var(--font-heading); font-size: 1.8rem; color: var(--text-main); margin-bottom: 2.5rem; font-weight: 700;">Why Participate?</h3>
+            </div>
+            <div class="benefits-grid fade-up">
+                <div class="benefit-item">
+                    <h5>PRESENT YOUR RESEARCH</h5>
+                    <p>Showcase original research to a national audience.</p>
+                </div>
+                <div class="benefit-item">
+                    <h5>BUILD COLLABORATIONS</h5>
+                    <p>Connect with leading researchers and professionals.</p>
+                </div>
+                <div class="benefit-item">
+                    <h5>NETWORK</h5>
+                    <p>Meet participants across multiple diverse disciplines.</p>
+                </div>
+                <div class="benefit-item">
+                    <h5>LEARN & EXCHANGE</h5>
+                    <p>Engage directly with emerging ideas and technologies.</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- 9. Submission Process -->
+    <section class="section process-section">
+        <div class="container">
+            <div class="section-header center fade-up">
+                <h2 class="section-title">Submission Process</h2>
+            </div>
+            
+            <div class="process-grid mt-5">
+                <div class="process-step fade-up">
+                    <div class="step-num">01</div>
+                    <h4>Prepare</h4>
+                    <p>Format your full paper in the <a href="https://drive.google.com/file/d/1pGefPEcUm4n6PI62njn-oJFyHeSlZsuM/view?usp=sharing" target="_blank" style="color: var(--accent); text-decoration: underline;">attached format</a>. Ensure original work, strictly &lt;15% plagiarism, and not published elsewhere.</p>
+                </div>
+                <div class="process-step fade-up delay-1">
+                    <div class="step-num">02</div>
+                    <h4>Submit</h4>
+                    <p>Email your full paper to: <br><a href="mailto:tjitconference@tjohngroup.com">tjitconference@tjohngroup.com</a></p>
+                </div>
+                <div class="process-step fade-up delay-2">
+                    <div class="step-num">03</div>
+                    <h4>Review</h4>
+                    <p>Undergo a rigorous peer review selection process by the technical committee.</p>
+                </div>
+                <div class="process-step fade-up delay-3">
+                    <div class="step-num">04</div>
+                    <h4>Acceptance</h4>
+                    <p>Receive official notification of acceptance via email.</p>
+                </div>
+                <div class="process-step fade-up delay-4">
+                    <div class="step-num">05</div>
+                    <h4>Registration</h4>
+                    <p>Complete participant registration & fee payment.</p>
+                </div>
+                <div class="process-step fade-up delay-5">
+                    <div class="step-num">06</div>
+                    <h4>Presentation</h4>
+                    <p>Deliver your research. Papers will be published in UGC Care listed journals (Additional Charges) and Conference Proceedings with ISBN.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Registration Fees -->
+    <section id="registration" class="section registration-section bg-alt">
+        <div class="container">
+            <div class="section-header center fade-up">
+                <h2 class="section-title">Registration</h2>
+                <p class="section-desc">Secure your spot at NCASTEM-2026. All fees include GST.</p>
+            </div>
+            
+            <div class="pricing-carousel-wrapper mt-5" style="position: relative;">
+                <button class="carousel-arrow left-arrow" aria-label="Scroll left" onclick="document.getElementById('pricingGrid').scrollBy({left: -300, behavior: 'smooth'})">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="pricing-grid" id="pricingGrid">
+                <!-- Card 1 -->
+                <div class="pricing-card fade-up">
+                    <div class="pricing-header">
+                        <h5>TJGI Staff & Students</h5>
+                    </div>
+                    <div class="pricing-amount">
+                        <span class="currency">₹</span>250<span class="period">/person</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Full Conference Access</li>
+                        <li>Proceedings with ISBN <br><small style="color: var(--accent-alt); font-weight: 600;">+ UGC Care (Additional Charges)</small></li>
+                        <li>Extra Team Members: ₹100/person</li>
+                    </ul>
+                    <button class="btn btn-outline-primary btn-full register-trigger">Register Now</button>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="pricing-card popular fade-up delay-1">
+                    <div class="popular-badge">STANDARD</div>
+                    <div class="pricing-header">
+                        <h5>External Participants</h5>
+                    </div>
+                    <div class="pricing-amount">
+                        <span class="currency">₹</span>500<span class="period">/person</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Full Conference Access</li>
+                        <li>Proceedings with ISBN <br><small style="color: var(--accent-alt); font-weight: 600;">+ UGC Care (Additional Charges)</small></li>
+                        <li>Extra Team Members: ₹100/person</li>
+                    </ul>
+                    <button class="btn btn-primary btn-full register-trigger">Register Now</button>
+                </div>
+                
+                <!-- Card 3 -->
+                <div class="pricing-card fade-up delay-2">
+                    <div class="pricing-header">
+                        <h5>External Faculty/PG</h5>
+                    </div>
+                    <div class="pricing-amount">
+                        <span class="currency">₹</span>800<span class="period">/person</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Full Conference Access</li>
+                        <li>Proceedings with ISBN <br><small style="color: var(--accent-alt); font-weight: 600;">+ UGC Care (Additional Charges)</small></li>
+                        <li>Extra Team Members: ₹100/person</li>
+                    </ul>
+                    <button class="btn btn-outline-primary btn-full register-trigger">Register Now</button>
+                </div>
+                
+                <!-- Card 4 -->
+                <div class="pricing-card fade-up delay-3">
+                    <div class="pricing-header">
+                        <h5>Industry Delegates</h5>
+                    </div>
+                    <div class="pricing-amount">
+                        <span class="currency">₹</span>1000<span class="period">/person</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Full Conference Access</li>
+                        <li>Proceedings with ISBN <br><small style="color: var(--accent-alt); font-weight: 600;">+ UGC Care (Additional Charges)</small></li>
+                        <li>Extra Team Members: ₹200/person</li>
+                    </ul>
+                    <button class="btn btn-outline-primary btn-full register-trigger">Register Now</button>
+                </div>
+                
+                </div> <!-- End pricing-grid -->
+                <button class="carousel-arrow right-arrow" aria-label="Scroll right" onclick="document.getElementById('pricingGrid').scrollBy({left: 300, behavior: 'smooth'})">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div> <!-- End carousel-wrapper -->
+        </div>
+    </section>
+
+    <!-- 10. Committee -->
+    <section id="committee" class="section committee-section">
+        <div class="container">
+            <div class="section-header center fade-up mb-5">
+                <h2 class="section-title">Leadership & Committee</h2>
+            </div>
+            
+            <!-- Institutional Leadership -->
+            <div class="committee-tier mb-5 fade-up">
+                <h3 class="tier-title">Institutional Leadership</h3>
+                <div class="leadership-premium-grid mt-4">
+                    <div class="profile-card premium">
+                        <div class="profile-img-wrap"><img src="images/thomas.png" alt="Dr. Thomas P. John"></div>
+                        <div class="profile-info">
+                            <span class="profile-role text-accent">Chief Patron</span>
+                            <h4 class="profile-name">Dr. Thomas P. John</h4>
+                            <p class="profile-desc">Chairman, T. John Group of Institutions</p>
+                        </div>
+                    </div>
+                    <div class="profile-card premium">
+                        <div class="profile-img-wrap"><img src="images/srinivasa.png" alt="Dr. H P Srinivasa"></div>
+                        <div class="profile-info">
+                            <span class="profile-role text-accent">Patron</span>
+                            <h4 class="profile-name">Dr. H P Srinivasa</h4>
+                            <p class="profile-desc">Principal, TJIT</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Conference Leadership -->
+            <div class="committee-tier mb-5 fade-up">
+                <h3 class="tier-title">Conference Chairs</h3>
+                <div class="leadership-horizontal-grid mt-4">
+                    <div class="profile-card horizontal">
+                        <div class="profile-img-wrap"><img src="images/asha.png" alt="Dr. Asha S Manek"></div>
+                        <div class="profile-info">
+                            <span class="profile-role">Program Chair</span>
+                            <h4 class="profile-name">Dr. Asha S Manek</h4>
+                            <p class="profile-desc">Prof & HOD (AIML), R&D Cell</p>
+                            <a href="mailto:tjitconference@tjohngroup.com" class="profile-link">Contact <i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="profile-card horizontal">
+                        <div class="profile-img-wrap"><img src="images/doddeg.png" alt="Dr. Doddegowda B J"></div>
+                        <div class="profile-info">
+                            <span class="profile-role">Conference Chair</span>
+                            <h4 class="profile-name">Dr. Doddegowda B J</h4>
+                            <p class="profile-desc">Associate Professor (ISE)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Technical & Review -->
+            <div class="committee-tier mb-5 fade-up">
+                <h3 class="tier-title">Review and Technical Committee</h3>
+                <div class="profile-grid mt-4">
+                    <div class="profile-card standard">
+                        <div class="profile-img-wrap"><img src="images/agrawal.png" alt="Dr. K P Agrawal"></div>
+                        <span class="profile-role">Advisory & Review</span>
+                        <h4 class="profile-name">Dr. K P Agrawal</h4>
+                        <p class="profile-desc">Professor (ISE)</p>
+                    </div>
+                    <div class="profile-card standard">
+                        <div class="profile-img-wrap"><img src="images/sentham.png" alt="Dr. Senthamarai Kannan"></div>
+                        <span class="profile-role">Advisory & Review</span>
+                        <h4 class="profile-name">Dr. Senthamarai Kannan</h4>
+                        <p class="profile-desc">Professor (ISE)</p>
+                    </div>
+                    <div class="profile-card standard">
+                        <div class="profile-img-wrap"><img src="images/shilpa.png" alt="Ms. Shilpa N S"></div>
+                        <span class="profile-role">Technical Program</span>
+                        <h4 class="profile-name">Ms. Shilpa N S</h4>
+                        <p class="profile-desc">Asst. Professor, HoD I/C (ISE)</p>
+                        <a href="tel:+919743436544" class="profile-link">+91 9743436544</a>
+                    </div>
+                    <div class="profile-card standard">
+                        <div class="profile-img-wrap"><img src="images/madhavi.png" alt="Ms. Madhavi Dixit"></div>
+                        <span class="profile-role">Technical Program</span>
+                        <h4 class="profile-name">Ms. Madhavi Dixit</h4>
+                        <p class="profile-desc">Asst. Professor (AIML)</p>
+                        <a href="tel:+918971681380" class="profile-link">+91 8971681380</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contact Persons -->
+            <div class="committee-tier fade-up">
+                <h3 class="tier-title">Contact Persons</h3>
+                <div class="profile-grid mt-4" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); max-width: 600px; margin: 0 auto;">
+                    <div class="profile-card standard">
+                        <div class="profile-img-wrap"><img src="images/shalini.png" alt="Ms. Shalini K V"></div>
+                        <span class="profile-role">Coordinator</span>
+                        <h4 class="profile-name">Ms. Shalini K V</h4>
+                        <p class="profile-desc">Asst. Professor</p>
+                        <a href="tel:+919742397194" class="profile-link">+91 9742397194</a>
+                    </div>
+                    <div class="profile-card standard">
+                        <div class="profile-img-wrap"><img src="images/siddu.png" alt="Ms. Siddu Tushara"></div>
+                        <span class="profile-role">Coordinator</span>
+                        <h4 class="profile-name">Ms. Siddu Tushara</h4>
+                        <p class="profile-desc">Asst. Professor</p>
+                        <a href="tel:+919620454678" class="profile-link">+91 9620454678</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- 11. FAQ -->
+    <section id="faq" class="section faq-section bg-alt">
+        <div class="container">
+            <div class="section-header center fade-up">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+            </div>
+            
+            <div class="faq-container mt-5 fade-up">
+                <div class="faq-item">
+                    <button class="faq-question">Who can participate? <i class="fas fa-plus"></i></button>
+                    <div class="faq-answer">
+                        <p>Scientists, academicians, researchers, practicing engineers, industry delegates, and students (UG/PG) are all invited to submit their research and participate.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">What are the presentation formats? <i class="fas fa-plus"></i></button>
+                    <div class="faq-answer">
+                        <p>We accept both Paper Presentations (oral) and Poster Presentations. Recommended poster size is 3 feet by 4 feet (36x48 inches).</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">Is publication available? <i class="fas fa-plus"></i></button>
+                    <div class="faq-answer">
+                        <p>Yes. Selected papers will be published in UGC Care listed journals (subject to additional charges) and Conference Proceedings with an ISBN.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">How do I submit my abstract? <i class="fas fa-plus"></i></button>
+                    <div class="faq-answer">
+                        <p>Abstracts of 250-300 words should be emailed to <strong>tjitconference@tjohngroup.com</strong> before the September 7th deadline.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">What does the registration fee include? <i class="fas fa-plus"></i></button>
+                    <div class="faq-answer">
+                        <p>The registration fee includes full access to the conference, conference proceedings with ISBN, and GST. Publication in UGC Care listed journals is available for additional charges.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 12. Final CTA -->
+    <section class="final-cta">
+        <div class="cta-overlay"></div>
+        <div class="container cta-content fade-up">
+            <h2 class="cta-heading">READY TO SHARE<br>YOUR RESEARCH?</h2>
+            <p class="cta-subheading">NCASTEM-2026 &middot; 30 OCTOBER 2026 &middot; BENGALURU</p>
+            <div class="cta-actions mt-4">
+                <a href="#guidelines" class="btn btn-primary btn-large">SUBMIT PAPER <i class="fas fa-arrow-right"></i></a>
+                <button class="btn btn-outline-light btn-large register-trigger" style="border-radius: 4px;">REGISTER NOW <i class="fas fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Registration Modal -->
+    <div id="registerModal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal" aria-label="Close">&times;</button>
+            <h3 class="modal-title">Registration Process</h3>
+            <p class="modal-subtitle text-muted mb-4">Please complete both steps to secure your spot.</p>
+            
+            <div class="modal-steps-grid">
+                <div class="modal-step">
+                    <div class="step-header">
+                        <div class="step-badge">1</div>
+                        <h4>Submission</h4>
+                    </div>
+                    <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 1rem;">Scan the QR code below to access the submission form.</p>
+                    <div class="qr-container">
+                        <img src="images/qr1.png" alt="Submission QR Code" class="qr-code">
+                    </div>
+                </div>
+                
+                <div class="modal-step">
+                    <div class="step-header">
+                        <div class="step-badge">2</div>
+                        <h4>Payment</h4>
+                    </div>
+                    <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 1rem;">Scan the QR code below to complete your fee payment.</p>
+                    <div class="qr-container">
+                        <img src="images/qr2.png" alt="Payment QR Code" class="qr-code">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 13. Footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="logo-text">NCASTEM-2026</span>
+                    <p class="mt-3">A premier Multidisciplinary National Conference hosted by Department of AIML & ISE, T. John Institute of Technology.</p>
+                </div>
+                
+                <div class="footer-links-col">
+                    <h4>Important Links</h4>
+                    <ul>
+                        <li><a href="#about">About Conference</a></li>
+                        <li><a href="#themes">Research Themes</a></li>
+                        <li><a href="#dates">Timeline & Deadlines</a></li>
+                        <li><a href="#registration">Registration</a></li>
+                        <li><a href="https://drive.google.com/file/d/1sbUlOYmeoY2o0iUojVPOqUJxb0hOFj9t/view?usp=sharing" target="_blank">Download Brochure</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact-col">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><i class="fas fa-map-pin"></i> <a href="https://www.google.com/maps/dir//VH2W%2B33X+T+John+Institute+Of+Technology,+%2386%2F1,+Gottigere,+Bannerghatta+Road,+Bohra+Layout,+Gottigere,+Doddakammanahalli,+Basavanapura,+Bengaluru,+Karnataka+560083/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bae6ac114cdcaf3:0xf645f28fa98fbd74?sa=X&ved=1t:57443&ictx=111" target="_blank">86/1, Gottigere, Bannerghatta Road, Bengaluru - 560083</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:tjitconference@tjohngroup.com">tjitconference@tjohngroup.com</a></li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+919743436544">+91 9743436544</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 T. John Institute of Technology. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
